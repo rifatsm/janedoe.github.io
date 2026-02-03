@@ -1,7 +1,7 @@
 /*
     File: main.js
     Purpose: Demonstrates DOM manipulation and event handling
-    Course: Web Development Fundamentals - WEB101
+    Course: IST 256 Programming for the Web | Mr. Ri 
 */
 
 document.addEventListener("DOMContentLoaded", function () {
