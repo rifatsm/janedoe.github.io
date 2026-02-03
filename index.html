@@ -3,7 +3,7 @@
     Student Name: Jane Doe
     Student ID: 20240123
     Course: Web Development Fundamentals - WEB101
-    Assignment: HTML5 Portfolio Page Assignment (CSS Extension)
+    Assignment: HTML5 Portfolio Page Assignment (CSS + DOM Extension)
     Submission Date: January 27, 2026
 -->
 
@@ -56,6 +56,26 @@
         </nav>
 
         <main>
+
+            <!-- DOM BUTTON DEMO -->
+            <button id="toggle-about" style="margin-bottom: 30px;">
+                Hide About
+            </button> 
+            
+            <!-- DOM BUTTON DEMO -->
+            <button id="toggle-skills" style="margin-bottom: 30px;">
+                Hide Skills
+            </button>
+            
+            <!-- DOM BUTTON DEMO -->
+            <button id="toggle-projects" style="margin-bottom: 30px;">
+                Hide Featured Project
+            </button>
+            
+            <!-- DOM BUTTON DEMO -->
+            <button id="toggle-contact" style="margin-bottom: 30px;">
+                Hide Contact
+            </button>
 
             <section id="about">
                 <h2>About Me</h2>
@@ -116,7 +136,8 @@
                     </p>
 
                     <figure>
-                        <img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/b/u/budget_tracking_dashboard_with_project_expenses_slide01.jpg"
+                        <img id="project-image"
+                             src="https://www.slideteam.net/media/catalog/product/cache/1280x720/b/u/budget_tracking_dashboard_with_project_expenses_slide01.jpg"
                              alt="Finance tracker dashboard">
                         <figcaption>Finance Tracker Dashboard</figcaption>
                     </figure>
@@ -144,6 +165,9 @@
         </footer>
 
     </div>
+
+    <!-- EXTERNAL JAVASCRIPT (DOM & EVENTS) -->
+    <script src="scripts/main.js"></script>
 
 </body>
 </html>
